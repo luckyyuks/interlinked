@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: interlinked
+  datasource:
+    url: jdbc:postgresql://localhost:5432/interlinked
+    username: interlinked
+    password: dev
+  jpa:
+    hibernate:
+      ddl-auto: validate
